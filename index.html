@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>OpenDataAPI</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet">
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Inter', sans-serif;
+      background: #f9fafb;
+      color: #111827;
+      line-height: 1.6;
+    }
+    header {
+      background: #111827;
+      color: white;
+      padding: 2rem;
+      text-align: center;
+    }
+    header h1 {
+      margin: 0;
+      font-size: 2rem;
+    }
+    header p {
+      margin: 0.5rem 0 0;
+      font-size: 1rem;
+      color: #9ca3af;
+    }
+    main {
+      max-width: 800px;
+      margin: 2rem auto;
+      padding: 0 1rem;
+    }
+    section {
+      margin-bottom: 2rem;
+      background: white;
+      padding: 1.5rem;
+      border-radius: 0.75rem;
+      box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+    }
+    section h2 {
+      margin-top: 0;
+      font-size: 1.5rem;
+      color: #111827;
+    }
+    a.button {
+      display: inline-block;
+      margin-top: 1rem;
+      padding: 0.75rem 1.5rem;
+      background: #2563eb;
+      color: white;
+      text-decoration: none;
+      border-radius: 0.5rem;
+      font-weight: 600;
+      transition: background 0.2s;
+    }
+    a.button:hover {
+      background: #1d4ed8;
+    }
+    footer {
+      text-align: center;
+      padding: 2rem;
+      font-size: 0.875rem;
+      color: #6b7280;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>OpenDataAPI</h1>
+    <p>An open-source project for transparent data access</p>
+  </header>
+
+  <main>
+    <section>
+      <h2>About the Project</h2>
+      <p>
+        OpenDataAPI is an open-source initiative that provides easy and transparent access to scraped public data. The goal is to make information more usable while respecting community concerns.
+        Use our data at api/api.json!
+      </p>
+    </section>
+
+    <section>
+      <h2>Contribute</h2>
+      <p>
+        Developers, researchers, and data enthusiasts are welcome to contribute! Check out our GitHub repository to submit pull requests, raise issues, or improve documentation.
+      </p>
+      <a class="button" href="https://github.com/eotter-beep/opendataapi" target="_blank">View on GitHub</a>
+    </section>
+
+    <section>
+      <h2>Request Deletion</h2>
+      <p>
+        If you want data removed from web scrapes, please start a GitHub issue in our repository. We’ll review and handle it with care.
+      </p>
+      <a class="button" href="https://github.com/eotter-beep/opendataapi/pulls" target="_blank">Request Deletion</a>
+    </section>
+  </main>
+
+  <footer>
+    &copy; <script>document.write(new Date().getFullYear());</script> OpenDataAPI. Open-source and community-driven.
+  </footer>
+</body>
+</html>
